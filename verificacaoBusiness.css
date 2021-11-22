@@ -1,0 +1,47 @@
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+   
+    font-family: gotham, arial, helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: auto auto !important;
+     vertical-align:middle;
+}
+
+
+
+#generalSession{
+    /*   Centralizando a session       */
+    position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+      
+}
+
+
+.container {
+    max-width: 100% !important;
+    height: auto;
+  
+};
+
+#selectOptionsContainer{
+    margin-top: auto;
+}
+
+div#saldoIpt {
+    margin-top: 30px;
+}
+
+
+#magicButton{
+    margin: 15% 50% 100px 25%;
+    height: 35px;
+    width: 50%;
+}
