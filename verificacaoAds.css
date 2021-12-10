@@ -15,6 +15,11 @@ body {
 
 
 
+/*========Botão de copy===========*/
+.btnCopy{
+    background-color: transparent;
+}
+
 #generalSession{
     /*   Centralizando a session       */
     position: absolute;

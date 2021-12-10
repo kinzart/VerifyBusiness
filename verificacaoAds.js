@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-	var elems = document.querySelectorAll('.tooltipped');
-	var instances = M.Tooltip.init(elems, options);
-});
 
 
 
@@ -34,14 +30,14 @@ function Enviar() {
 
 	let duetto = {
 		name: 'Duetto Ambientes',
-		id: 123231,
+		id: "881-867-1827",
 		orc: 20,
 	}
 
 	let faganello = {
 		name: 'Faganello Móveis Planejados',
-		id: 1232314,
-		orc: 20,
+		id: "531-136-0929",
+		orc: 90,
 	}
 
 	let dgplanejados = {
@@ -52,49 +48,49 @@ function Enviar() {
 
 	let vistalago = {
 		name: 'Vista Lago',
-		id: 123231,
-		orc: 20,
+		id: "765-020-6842",
+		orc: 50,
 	}
 
 	let casaedesign = {
 		name: 'Casa & Design',
-		id: 123231,
-		orc: 20,
+		id: "239-956-4162",
+		orc: 40,
 	}
 
 	let quecasa = {
 		name: 'Que Casa',
-		id: 123231,
+		id: "343-624-5937",
 		orc: 20,
 	}
 
 	let progettare = {
 		name: 'Progettare Ambientes',
-		id: 123231,
+		id: "253-653-7496",
 		orc: 20,
 	}
 
 	let dellamore = {
 		name: "Dell'Amore",
-		id: 123231,
+		id: "677-449-4778",
 		orc: 20,
 	}
 
 	let montserrat = {
 		name: 'Montserrat',
-		id: 123231,
+		id: "995-647-7207",
 		orc: 20,
 	}
 
 	let casabonita = {
 		name: 'Casa Bonita',
-		id: 123231,
-		orc: 20,
+		id: "334-252-5919",
+		orc: 95,
 	}
 
 	let deseo = {
 		name: 'Deseo Interiores',
-		id: 123231,
+		id: "413-649-6358",
 		orc: 20,
 	}
 
@@ -106,7 +102,23 @@ function Enviar() {
 
 	let amare = {
 		name: 'Amare',
-		id: 123231,
+		id: "568-729-1942",
+		orc: 20,
+	}
+
+	let favaretto = {
+		name: 'Favaretto',
+		id: 881 - 867 - 1827,
+		orc: 20,
+	}
+	let jeremias = {
+		name: 'Paulo Jeremias Imoveis',
+		id: '771-955-1280',
+		orc: 20,
+	}
+	let encorda = {
+		name: 'Encorda',
+		id: "881 -  867 - 1827",
 		orc: 20,
 	}
 
@@ -126,6 +138,7 @@ function Enviar() {
 	if (company === 'Duetto Ambientes') {
 		custoDiario = duetto.orc;
 		company = duetto.name;
+		adsId = duetto.id;
 
 
 
@@ -133,59 +146,87 @@ function Enviar() {
 	else if (company === 'Faganello') {
 		custoDiario = faganello.orc
 		company = faganello.name;
+		adsId = faganello.id;
+
 
 	}
 	else if (company === 'DG Planejados') {
 		custoDiario = dgplanejados.orc;
 		company = dgplanejados.name;
-		console.log('EITA')
+		adsId = dgplanejados.id
+
 
 	}
 	else if (company === 'Vista Lago') {
-		custoDiario = vistalago.orc
+		custoDiario = vistalago.orc;
 		company = vistalago.name;
+		adsId = vistalago.id
 
 	}
 	else if (company === 'Casa & Design') {
-		custoDiario = casaedesign.orc
+		custoDiario = casaedesign.orc;
 		company = casaedesign.name;
+		adsId = casaedesign.id
 
 	}
 	else if (company === 'Que Casa') {
-		custoDiario = quecasa.orc
+		custoDiario = quecasa.orc;
 		company = quecasa.name;
+		adsId = quecasa.id
 
 	}
 	else if (company === 'Progettare') {
-		custoDiario = progettare.orc
+		custoDiario = progettare.orc;
 		company = progettare.name;
+		adsId = progettare.id
 
 	}
 	else if (company === "Dell'Amore") {
-		custoDiario = dellamore.orc
+		custoDiario = dellamore.orc;
 		company = dellamore.name;
+		adsId = dellamore.id
 
 	}
 	else if (company === 'Montserrat') {
-		custoDiario = montserrat.orc
+		custoDiario = montserrat.orc;
 		company = montserrat.name;
+		adsId = montserrat.id
 
 	}
 	else if (company === 'Casa Bonita') {
-		custoDiario = casabonita.orc
-		company = casabonita.name
+		custoDiario = casabonita.orc;
+		company = casabonita.name;
+		adsId = casabonita.id
 	}
 	else if (company === 'Deseo Interiores') {
-		custoDiario = deseo.orc
-		company = deseo.name
+		custoDiario = deseo.orc;
+		company = deseo.name;
+		adsId = deseo.id
 	}
 	else if (company === 'Sap') {
-		custoDiario = sap.orc
-		company = sap.name
+		custoDiario = sap.orc;
+		company = sap.name;
+		adsId = sap.id
 	}
 	else if (company === 'Amare') {
-		custoDiario = amare.orc
-		company = amare.name
+		custoDiario = amare.orc;
+		company = amare.name;
+		adsId = amare.id
+	}
+	else if (company === 'Paulo Jeremias') {
+		custoDiario = jeremias.orc;
+		company = jeremias.name;
+		adsId = jeremias.id
+	}
+	else if (company === 'Favaretto') {
+		custoDiario = favaretto.orc;
+		company = favaretto.name;
+		adsId = favaretto.id
+	}
+	else if (company === 'Encorda') {
+		custoDiario = encorda.orc;
+		company = encorda.name;
+		adsId = encorda.id
 	}
 
 
@@ -194,16 +235,19 @@ function Enviar() {
 
 	let saldoInput = document.getElementById("saldoInputid");
 	let saldoFloat = parseFloat(saldoInput.value);
-	let saldo = saldoFloat.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
+	saldo = saldoFloat.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
 
 
 
 
 	if (saldoInput.value != "") {
 		console.log('sem format:' + saldoInput.value + '   saldo formatado:' + saldo);
+
 	}
 	else {
 		console.log('algo errado')
+
+		alert('Orraz, tais querenu inbica sem bota o saldo ehh?')
 	}
 
 
@@ -230,9 +274,19 @@ function Enviar() {
 		//para 2 meses basta fazer uma condição > 60 e expiraSaldo -60
 	}
 
+
+
+
+
+
+
+
+	//Desabilitando o botão
+
+
 	const ultimaVerificacao = dataAtual
-	document.getElementById('showEmpresa').innerHTML = `Empresa: ${company}`
-	document.getElementById('showConta').innerHTML = `FACEBOOK BUSINESS`
+	document.getElementById('showEmpresa').innerHTML = `Empresa: ${company} ( ${adsId} )`
+	document.getElementById('showConta').innerHTML = `GOOGLE ADS`
 	document.getElementById('showSaldo').innerHTML = `Saldo Atual: ${saldo}`
 	document.getElementById('showDiasRestantes').innerHTML = `Dias Restantes: ${Math.floor(diasRestantes)}`
 	if (saldoFloat <= 1) {
@@ -242,14 +296,46 @@ function Enviar() {
 	}
 	document.getElementById('showDataAtual').innerHTML = `Ultima verificação: ${getDayOfWeek(Date.now())} ${dataAtual}/${mesAtual}`
 
-
-
+	/*
+	
+		btn = document.createElement("BUTTON");
+		btn.innerHTML = "Copy";
+		btn.className = "btnCopy";
+		var copyT = document.getElementById("myInput");
+		copyT.appendChild(btn)
+		copyT.addEventListener("click", copyClipboard);
+		//document.body.appendChild(btn);*/
 	return saldoInput
 }
 
 
 
+function whats() {
 
+
+	copyText = document.querySelectorAll(".copy")
+	e = copyText[1].innerText;
+	r = copyText[2].innerText;
+	t = copyText[3].innerText;
+	y = copyText[4].innerText;
+	u = copyText[5].innerText;
+	i = copyText[6].innerText;
+	ha = `${e} \n ${r} \n ${t} \n ${y} \n ${u} \n ${i}`
+
+	alert("Copied the text: " + ha);
+
+	navigator.clipboard.writeText(ha)
+	/*for(var i = 0; i < copyText.length; i++) {
+		navigator.clipboard.writeText(copyText[i].innerText);
+		alert("Copied the text: " + copyText[i].innerText);
+	
+	}*/
+
+
+	//window.location.href = "https://api.whatsapp.com/send/?phone=5548996794524/?text=Olatudobem";
+
+
+}
 
 
 
